@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
+
 namespace WebApp1.Pages;
-    
-[Authorize]
+
+//so anonymous users can get information about the site before registering
+[AllowAnonymous]
 public class PrivacyModel : PageModel
 {
     

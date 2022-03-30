@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApp1.Data;
 using Microsoft.Extensions.DependencyInjection;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +13,25 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+builder.Services.AddDbContext<ApbetProjectContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("ApbetProjectContext")));
+
+//Add Role services to Identity
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()    
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddRazorPages();
+
+//Require Authenticated users
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .Build();
+});
+
+
 
 builder.Services.AddDbContext<ApbetProjectContext>(options =>
 
@@ -38,6 +56,15 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.User.AllowedUserNameCharacters =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
     options.User.RequireUniqueEmail = false;
+});
+
+//Authorization for the Private page
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizePage("/Private");
+    options.Conventions.AuthorizeAreaPage("Instructor", "/Private");
+    options.Conventions.AuthorizeAreaPage("ProgramAdmin", "/Private");
+    options.Conventions.AuthorizeAreaPage("SystemAdmin", "/Private");
 });
 
 builder.Services.ConfigureApplicationCookie(options =>
