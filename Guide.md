@@ -42,7 +42,7 @@ This is a brief guide using excerpts from the lectures and the Rubin book to hel
 	*E = Estimatable - if you do not know the size, you are not ready to implement
 	*S = Sized Appropriately - keep them small, so we can finish by the end of the sprint
 	*T = Testable - if we can’t test it, it is not well developed
-To help ensure the User Stories are correct and to elicit more information, rephrase the story back to the product owner and encourage their feedback
+	*To help ensure the User Stories are correct and to elicit more information, rephrase the story back to the product owner and encourage their feedback
 Two ways to develop user stories
 	*User Story Writing Workshop
 #Story Mapping
@@ -67,27 +67,27 @@ Two ways to develop user stories
 		*Business value is clearly articulated
 		*Details are sufficiently understood, to make an informed decision whether it can be completed
 		*Dependencies are identified and no external dependencies would block from being implemented
-*Prioritize the list into must-haves, nice to have, and won’t have for each release
-*Do the must haves and try to get to the nice to haves if possible
-*Estimation and Velocity
-*Initially, the team will use estimate as a team to estimate how long it will take to do pbi’s. 
-	*A transition to Planning poker pg 129 Rubin may be necessary as we progress
-*We will use Story points to estimate the PBI size
-*Since, we have no historical data on team velocity, initially we will take a guestimate on the first sprint and go from there to more precisely measure velocity
-*Technical Debt
-*Types
+		*Prioritize the list into must-haves, nice to have, and won’t have for each release
+		*Do the must haves and try to get to the nice to haves if possible
+		*Estimation and Velocity
+		*Initially, the team will use estimate as a team to estimate how long it will take to do pbi’s. 
+		*A transition to Planning poker pg 129 Rubin may be necessary as we progress
+		*We will use Story points to estimate the PBI size
+		*Since, we have no historical data on team velocity, initially we will take a guestimate on the first sprint and go from there to more precisely measure velocity
+#Technical Debt
+##Types
 	*Bad Design
 	*Defects
 	*Insufficient test coverage
 	*Excessive manual testing
 	*Poor Integration and release management
-*How to identify
+##How to identify
 	*Assembly errors
 	*Feedback from Professor
 	*Erroneous output
 	*Having to “make things work” for a deadline, and not readdressing the issue
 	*No testing process used
-*How to Service Technical debt
+##How to Service Technical debt
 	*Use Strong definition of Done
 	*Use good coding practices to begin with
 	*Heavily use testing to code
