@@ -14,13 +14,13 @@ This is a brief guide using excerpts from the lectures and the Rubin book to hel
 		*Daily Scrum - "daily" <15 minute meeting to discuss progress on sprint
 		*Done - end of sprint deliverable product
 		*Sprint Review - go over the product with everyone and make adjustments
-		*Sprint Retrospective - check the process, how did the process work? Did we try to do to much or not enough? This is a process overview
+		*Sprint Retrospective - check the process, how did the process work, Did we try to do to much or not enough, This is a process overview
 ##Sprints
 
 *Sprints should last no more than a few weeks
 *Once the goal of the sprint has been set, there can be no changes that change the goal of the sprint
 *Sprints should be clearly defined both in scope and duration
-*Before beginning a sprint, a clear definition of done needs to be established for each item.
+*Before beginning a sprint, a clear definition of done needs to be established for each item
 *For all items to be done, review the done checklist on page 74 of the book
 
 ##Requirements and User Stories
