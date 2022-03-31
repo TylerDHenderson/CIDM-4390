@@ -62,8 +62,8 @@ Two ways to develop user stories
 		*Creating and Refining
 		*Estimating PBI's
 		*Prioritizing
-	*Grooming is performed by all the stakeholders as new information emerges
-	*Definition of ready from the Rubin book
+		*Grooming is performed by all the stakeholders as new information emerges
+		*Definition of ready from the Rubin book
 		*Business value is clearly articulated
 		*Details are sufficiently understood, to make an informed decision whether it can be completed
 		*Dependencies are identified and no external dependencies would block from being implemented
