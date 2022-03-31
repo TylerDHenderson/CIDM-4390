@@ -57,8 +57,8 @@ Two ways to develop user stories
 	*Emergent
 	*Estimated
 	*Prioritized
-*The PBI must be groomed
-	*Grooming Process
+#The PBI must be groomed
+	##Grooming Process
 		*Creating and Refining
 		*Estimating PBI's
 		*Prioritizing
@@ -106,9 +106,9 @@ Two ways to develop user stories
 	*SRP – Single Responsibility Principle – a module should be responsible to one, and only one, actor
 	*OCP – The Open-Closed Principle – design the software in a way that to make a change you add code and not modify existing code
 	*LSP – The Liskov Substitution Principle – to make software reuseable, build them in a consistent way so that they can be substituted one for another
-ISP – The Interface Segregation Principle – don’t depend on things you don’t use(referring to depencies)
-DIP – The Dependency Inversion Principle – code that implements high level policy should not depend on low level details
-The Clean Architecture
+	*ISP – The Interface Segregation Principle – don’t depend on things you don’t use(referring to depencies)
+	*DIP – The Dependency Inversion Principle – code that implements high level policy should not depend on low level details
+
 
 
 
