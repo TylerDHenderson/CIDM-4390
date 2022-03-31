@@ -60,7 +60,7 @@ Two ways to develop user stories
 *The PBI must be groomed
 	*Grooming Process
 		*Creating and Refining
-		*Estimating PBI’s
+		*Estimating PBI's
 		*Prioritizing
 	*Grooming is performed by all the stakeholders as new information emerges
 	*Definition of ready from the Rubin book
@@ -90,22 +90,22 @@ Two ways to develop user stories
 *How to Service Technical debt
 	*Use Strong definition of Done
 	*Use good coding practices to begin with
-	Heavily use testing to code
-	Use thorough code reviews
-	Make note of intended technical debt, and make sure it is addressed in future iterations
-	Fix the error as you work on other things if possible
-Scrum Planning Principles
-	Don’t assume we can get the plans right upfront
-	Up-front planning should be helpful without being excessive
-	Keep planning options open until the last responsible moment
-	Focus more on adapting and replanning than on conforming to a plan
-	Correctly manage the planning inventory
-	Favor small and more frequent releases
-	Plan to learn fast and pivot when necessary
-SOLID Principles
-	SRP – Single Responsibility Principle – a module should be responsible to one, and only one, actor
-	OCP – The Open-Closed Principle – design the software in a way that to make a change you add code and not modify existing code
-	LSP – The Liskov Substitution Principle – to make software reuseable, build them in a consistent way so that they can be substituted one for another
+	*Heavily use testing to code
+	*Use thorough code reviews
+	*Make note of intended technical debt, and make sure it is addressed in future iterations
+	*Fix the error as you work on other things if possible
+##Scrum Planning Principles
+	*Don’t assume we can get the plans right upfront
+	*Up-front planning should be helpful without being excessive
+	*Keep planning options open until the last responsible moment
+	*Focus more on adapting and replanning than on conforming to a plan
+	*Correctly manage the planning inventory
+	*Favor small and more frequent releases
+	*Plan to learn fast and pivot when necessary
+##SOLID Principles
+	*SRP – Single Responsibility Principle – a module should be responsible to one, and only one, actor
+	*OCP – The Open-Closed Principle – design the software in a way that to make a change you add code and not modify existing code
+	*LSP – The Liskov Substitution Principle – to make software reuseable, build them in a consistent way so that they can be substituted one for another
 ISP – The Interface Segregation Principle – don’t depend on things you don’t use(referring to depencies)
 DIP – The Dependency Inversion Principle – code that implements high level policy should not depend on low level details
 The Clean Architecture
