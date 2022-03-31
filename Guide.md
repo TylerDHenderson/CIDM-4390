@@ -60,6 +60,7 @@ This is a brief guide using excerpts from the lectures and the Rubin book to hel
 	*Defects
 	*Technical Work
 	*Knowledge Acquisition
+
 #Change
 
 ##Characteristics
@@ -69,9 +70,9 @@ This is a brief guide using excerpts from the lectures and the Rubin book to hel
 	*Estimated
 	*Prioritized
 
-#The PBI must be groomed
+##The PBI must be groomed
 
-	##Grooming Process
+	###Grooming Process
 
 		*Creating and Refining
 		*Estimating PBI's
@@ -84,20 +85,21 @@ This is a brief guide using excerpts from the lectures and the Rubin book to hel
 		*Prioritize the list into must-haves, nice to have, and won’t have for each release
 		*Do the must haves and try to get to the nice to haves if possible
 		*Estimation and Velocity
-		*Initially, the team will use estimate as a team to estimate how long it will take to do pbi’s. 
+		*Initially, the team will use estimate as a team to estimate how long it will take to do pbi’s
 		*A transition to Planning poker pg 129 Rubin may be necessary as we progress
 		*We will use Story points to estimate the PBI size
 		*Since, we have no historical data on team velocity, initially we will take a guestimate on the first sprint and go from there to more precisely measure velocity
 
-#Technical Debt
+##Technical Debt
 
-##Types
+###Types
 
 	*Bad Design
 	*Defects
 	*Insufficient test coverage
 	*Excessive manual testing
 	*Poor Integration and release management
+
 ##How to identify
 
 	*Assembly errors
