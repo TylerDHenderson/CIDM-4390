@@ -55,7 +55,8 @@ public class ProgramAdminTest
                 {
                     InstructorID = InstrucID,
                     FirstName = "Testing",
-                    LastName = "StillTesting"
+                    LastName = "StillTesting",
+                    bool AuthenticatedInstructor = 1;
                 };
 
                 await db.AddInstructorAuthenticated(expectedInstructor);

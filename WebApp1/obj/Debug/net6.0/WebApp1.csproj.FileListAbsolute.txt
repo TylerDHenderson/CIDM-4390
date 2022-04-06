@@ -818,3 +818,15 @@ C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development
 C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Final\Abet Project\WebApp1\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Final\Abet Project\WebApp1\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Final\Abet Project\WebApp1\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.csproj.AssemblyReference.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.AssemblyInfoInputs.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.AssemblyInfo.cs
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.RazorAssemblyInfo.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.RazorAssemblyInfo.cs
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.dll
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\refint\WebApp1.dll
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\WebApp1\obj\Debug\net6.0\WebApp1.pdb

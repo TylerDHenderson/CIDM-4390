@@ -10262,11 +10262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Final\\Abet Project\\WebApp1\\WebApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\Abet Project\\WebApp1\\WebApp1.csproj",
       "projectName": "WebApp1",
-      "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Final\\Abet Project\\WebApp1\\WebApp1.csproj",
+      "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\Abet Project\\WebApp1\\WebApp1.csproj",
       "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Final\\Abet Project\\WebApp1\\obj\\",
+      "outputPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\Abet Project\\WebApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10348,7 +10348,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
