@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 using WebApp1.Data;
+using WebApp1.Models;
 
 namespace webapp.Tests;
 
@@ -41,6 +42,7 @@ public class ProgramAdminTest
                 var expectedFormSubmission = new FormSubmission();
                 bool result = expectedFormSubmission(0);
 
+                
                 Assert.False(result, "Form was not Submitted");
             }
         }
@@ -56,14 +58,30 @@ public class ProgramAdminTest
                     InstructorID = InstrucID,
                     FirstName = "Testing",
                     LastName = "StillTesting",
-                    bool AuthenticatedInstructor = 1;
+
+                    
                 };
 
-                await db.AddInstructorAuthenticated(expectedInstructor);
+                await db.AddInstructorAsync(expectedInstructor);
+                Assert.
 
-                var actualInstructor = await.db.FindAsync<Instructor>(InstrucID);
+                var actualInstructor = await db.FindAsync<Instructor>(InstrucID);
                 Assert.Equal(expectedInstructor, actualInstructor);
             }
         }
+        // public bool InstructorAuthenticated(bool AuthenticatedInstructor)
+        // {
+        //     var InstrucID=10;
+        //     if (InstructorAuthentication = 0)
+        //     {
+        //         return False;
+        //     }
+        //     else
+        //     {
+        //         return True;
+        //     }
+
+
+        // }
 }
 

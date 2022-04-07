@@ -1,0 +1,6 @@
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\webapp.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.csproj.AssemblyReference.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.AssemblyInfoInputs.cache
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.AssemblyInfo.cs
+C:\Users\Tyler\OneDrive\Desktop\WT Class\2022 Spring\Software System Development\Testing\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.csproj.CoreCompileInputs.cache
