@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABETtest", "ABETtest\ABETte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABETtest.Tests", "ABETtest.Tests\ABETtest.Tests.csproj", "{0458CE3A-E25B-4DAA-AE7A-37C4786E49FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapp.Tests", "webapp.Tests\webapp.Tests.csproj", "{381B0A71-1245-47F1-936E-3121D48752CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0458CE3A-E25B-4DAA-AE7A-37C4786E49FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0458CE3A-E25B-4DAA-AE7A-37C4786E49FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0458CE3A-E25B-4DAA-AE7A-37C4786E49FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B0A71-1245-47F1-936E-3121D48752CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B0A71-1245-47F1-936E-3121D48752CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B0A71-1245-47F1-936E-3121D48752CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B0A71-1245-47F1-936E-3121D48752CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

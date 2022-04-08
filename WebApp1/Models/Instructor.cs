@@ -10,6 +10,8 @@ namespace WebApp1.Models
         public string FirstName {get;set;}
         public string LastName {get;set;}
         public int CourseID {get;set;}
+        public bool FormSubmission {get; set;}
+        public int InstructorAuthentication {get; set;}
 
         [DataType(DataType.EmailAddress)]
         public string Email {get;set;}

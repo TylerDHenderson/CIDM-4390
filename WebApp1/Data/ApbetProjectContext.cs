@@ -22,5 +22,25 @@ namespace WebApp1.Data
         public DbSet<WebApp1.Models.ProgramEvaluator> ProgramEvaluator { get; set; }
 
         public DbSet<WebApp1.Models.SystemAdmin> SystemAdmin { get; set; }
+
+        #region snippet2
+        public async virtual Task AddProgramAdminAsync(WebApp1.Models.ProgramAdmin programAdmin)
+        {
+            await ProgramAdmin.AddAsync(programAdmin);
+            await SaveChangesAsync();
+        }
+        #endregion
+
+        public async virtual Task AddInstructorAsync(WebApp1.Models.Instructor instructor)
+        {
+            await Instructor.AddAsync(instructor);
+            await SaveChangesAsync();
+        }
+
+        public async virtual Task AddFormSubmissionAsync(WebApp1.Models.Instructor instructor)
+        {
+            await Instructor.AddAsync(instructor);
+            await SaveChangesAsync();
+        }
     }
 }
