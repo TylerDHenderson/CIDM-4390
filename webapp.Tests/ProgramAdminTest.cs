@@ -22,6 +22,7 @@ public class ProgramAdminTest
                     ProgramAdminID = recId, 
                     FirstName = "Tester",
                     LastName = "Test",
+                    Email = "Tester.Test12@gmail.com",
                 };
 
                 // Act
@@ -39,17 +40,19 @@ public class ProgramAdminTest
             
             using (var db = new ApbetProjectContext(Utilities.TestDbContextOptions()))
             {
-                
+                var IntID = 12;
                 var expectedFormSubmission = new Instructor()
                 {
+                    InstructorID = IntID,
                     FirstName = "Tim",
                     LastName = "Hope",
+                    Email = "Tim.TimHope@gmail.com",
                     //FormSubmission = False
                 };
 
                 await db.AddFormSubmissionAsync(expectedFormSubmission);
 
-                var actualFormSubmission = await db.FindAsync<Instructor>();
+                var actualFormSubmission = await db.FindAsync<Instructor>(IntID);
                 //Assert.False();
             }
         }
@@ -65,6 +68,7 @@ public class ProgramAdminTest
                     InstructorID = InstrucID,
                     FirstName = "Testing",
                     LastName = "StillTesting",
+                    Email = "test.testingstill@gmail.com",
 
                     
                 };
