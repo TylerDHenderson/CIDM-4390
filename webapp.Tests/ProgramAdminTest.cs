@@ -62,7 +62,7 @@ public class ProgramAdminTest
         {
             using (var db = new ApbetProjectContext(Utilities.TestDbContextOptions()))
             {
-                var InstrucID =10;
+                var InstrucID =11;
                 var expectedInstructor = new Instructor()
                 {
                     InstructorID = InstrucID,
