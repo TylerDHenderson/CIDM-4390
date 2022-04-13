@@ -28,6 +28,7 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
+		<PackageReference Include="MessagePackAnalyzer" Version="2.1.152"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\WebApp1\WebApp1.csproj"/>

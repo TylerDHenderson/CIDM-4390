@@ -365,3 +365,8 @@ C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\obj\Debug\net6.0\refin
 C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.pdb
 C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\obj\Debug\net6.0\webapp.Tests.genruntimeconfig.cache
 C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\obj\Debug\net6.0\ref\webapp.Tests.dll
+C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Tyler\OneDrive\Desktop\Abet Project\webapp.Tests\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
