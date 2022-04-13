@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "webapp.Tests/1.0.0": {
         "dependencies": {
+          "MessagePackAnalyzer": "2.1.152",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.4",
           "Microsoft.EntityFrameworkCore.Design": "6.0.4",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.4",
@@ -2804,6 +2805,7 @@
       "xunit.runner.visualstudio/2.4.3": {},
       "WebApp1/1.0.0": {
         "dependencies": {
+          "MessagePackAnalyzer": "2.1.152",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4",
           "Microsoft.AspNetCore.Identity.UI": "6.0.4",

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hNrCaQ8qcEkB2sN6WcihPpmXgi6bJwB+dkbeTbA4fa02ih1yikmKgn3hDl6oteNOibtHZXy/j5PhmCSTHcDEBA==",
+  "dgSpecHash": "LL/tkcxHrCObem7tmO9IFGHNqajcpnahXpFJoHIyU8XPjBEml3KTveNeUp2jraMgUbMX07imh2yljyc6zMMs0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest\\ABETtest.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Tyler\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512"
+  ],
   "logs": []
 }

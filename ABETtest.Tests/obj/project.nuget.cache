@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gwRRcrH+LUt6IDlrAjZ5kNEg5H0DpfepG69mzDlzva8Tjhnm7/hbRh9amDb8gKSUablHRiZca27IOZl/klx24A==",
+  "dgSpecHash": "5EX1qyckccx0aK8ndLSio/8ix4ObhWnmUDGtxUbn+Wl3iOHOTJsAUtaLgmLN0iXfMlyUboj6z1m8aNcXhcTWUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest.Tests\\ABETtest.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tyler\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Tyler\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
     "C:\\Users\\Tyler\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\Tyler\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Tyler\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",

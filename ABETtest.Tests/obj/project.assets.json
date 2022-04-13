@@ -8,6 +8,9 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "MessagePackAnalyzer/2.1.152": {
+        "type": "package"
+      },
       "Microsoft.CodeCoverage/17.1.0": {
         "type": "package",
         "compile": {
@@ -1674,6 +1677,9 @@
       "ABETtest/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MessagePackAnalyzer": "2.1.152"
+        },
         "compile": {
           "bin/placeholder/ABETtest.dll": {}
         },
@@ -1733,6 +1739,22 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "MessagePackAnalyzer/2.1.152": {
+      "sha512": "uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
+      "type": "package",
+      "path": "messagepackanalyzer/2.1.152",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "analyzers/dotnet/MessagePackAnalyzer.dll",
+        "messagepackanalyzer.2.1.152.nupkg.sha512",
+        "messagepackanalyzer.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.CodeCoverage/17.1.0": {
@@ -5986,6 +6008,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ABETtest >= 1.0.0",
+      "MessagePackAnalyzer >= 2.1.152",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
@@ -6035,6 +6058,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MessagePackAnalyzer": {
+            "target": "Package",
+            "version": "[2.1.152, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.1.0, )"

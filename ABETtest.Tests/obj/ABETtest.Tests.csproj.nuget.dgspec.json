@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MessagePackAnalyzer": {
+              "target": "Package",
+              "version": "[2.1.152, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
@@ -119,6 +123,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MessagePackAnalyzer": {
+              "target": "Package",
+              "version": "[2.1.152, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
