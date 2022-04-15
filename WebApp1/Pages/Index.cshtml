@@ -3,8 +3,157 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<style> table, th, td 
+    {border: 1px solid black;}
+</style>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h5> <center>Faculty Course Assessment Report</center></h5>
+
+<h5><center>Computer Information & Decision Management Department</center></h5>
+<hr />
+
+<div class ="row">
+     <div class="col-4 border border-dark">
+        
+       <b>Course:</b>
+    </div>
+     <div class="col-4 border border-dark">
+       <b>Semester:</b>
+    </div>
+    <div class="col-4 border border-dark">
+        <b>Year:</b>
+    </div>
 </div>
+
+<div class = "row">
+    <div class="col-12 border border-dark">
+       <b>Instructor:</b>
+    </div>
+</div>
+<br />
+@* Form for Course Coordinator *@
+<div class="row">
+        <form method="post">
+          
+    <div class="form-group">
+      <label asp-for="CourseCoordinator" class="form-label mt-4"><b>1. Course Coordinator </b></label>
+      <textarea class="form-control" id="CourseCoordinator" rows="3"placeholder="If you are unsure, leave this blank."></textarea>
+    </div>
+        </form>
+    </div>
+    
+
+@* Form for Catalog Description *@
+<div class="row">
+     <form method="post">
+          
+     <div class="form-group">
+      <label asp-for="CatalogDescription" class="form-label mt-4"><b><b>2. Catalog Description</b> </b></label>
+      <textarea class="form-control" id="CatalogDescription" rows="3"placeholder="Use the catalog description for your course for AY2016-2017 (you can find them
+    here - https://catalog.wtamu.edu/content.php?catoid=10&navoid=779"></textarea>
+    </div>
+     </form>
+    </div>
+
+
+<b>3. Grade Distrubution:</b>
+
+<table class="table table-hover">
+    <form>
+  <tbody>
+    <tr class="table-Grade">
+      <th scope="row"></th>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+      <td>E</td>
+      <td>F</td>
+      <td>TOTAL</td>
+    </tr>
+    <tr class="table-Class">
+      <th scope="row">Entire Class</th>
+   
+
+
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      
+    </tr>
+    <tr class="table-Major">
+      <th scope="row">(This is include where applicable) CIDM Majors only</th>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+      <td> <textarea cols="3" rows="2"></textarea><label for="GradeDistrubution"></label> </td>
+    </form>
+    </tbody>
+    </table>
+
+
+
+ <div class="row">
+    <form method="post">
+          
+    <div class="form-group">
+    <label asp-for="ModificationsCourse" class="form-label mt-4"><b>4. Modifications Made to the Course: </b></label>
+    <textarea class="form-control" id="ModificationsCourse" rows="3"placeholder="Please list any changes made to the course during this assessment period.  These 
+        would have been changes we decided upon during the previous academic year’s 
+        evaluation meeting."></textarea>
+    </div>
+    </form>
+    </div>
+
+
+
+<div class="row">
+    <form method="post">
+          
+    <div class="form-group">
+    <label asp-for="StudentFeedback" class="form-label mt-4"> <b>5. Student Feedback</b></label>
+    <textarea class="form-control" id="StudentFeedback" rows="3"placeholder="Please share your direct and indirect observations you’ve gather from your 
+    interactions with students throughout the semester.  As we are not always able to 
+    use the data that accompanies the CIEQ information, we utilize our own reflections 
+    based on either direct student interaction or indirect observation."></textarea>
+    </div>
+    </form>
+    </div>
+
+<div class="row">
+    <form method="post">
+          
+    <div class="form-group">
+    <label asp-for="StudentFeedback" class="form-label mt-4"><b>6. Reflection </b></label>
+    <textarea class="form-control" id="StudentFeedback" rows="3"placeholder="These are your own reflections on the delivery of the course for the period reported.
+    Please be thoughtful and elaborate with information that would be useful for our 
+    annual evaluation meeting where we plan future improvements to courses and the 
+    curriculum overall"></textarea>
+    </div>
+    </form>
+    </div>
+
+<div class="row">
+    <form method="post">
+          
+    <div class="form-group">
+    <label asp-for="CourseImprovement" class="form-label mt-4"><b>7. Proposed Actions for Course Improvement</b></label>
+    <textarea class="form-control" id="CourseImprovement" rows="3"placeholder="Based on your reflection and your own analysis of assessment data, what are 
+    suggested improvements for this course, and its impact on both the program and 
+    overall student attainment of our Student Outcomes at the program level"></textarea>
+    </div>
+    </form>
+    </div>
+
+<!-- Add JS code for Data Validation -->
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

@@ -6021,11 +6021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest.Tests\\ABETtest.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\CIDM-4390\\ABETtest.Tests\\ABETtest.Tests.csproj",
       "projectName": "ABETtest.Tests",
-      "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest.Tests\\ABETtest.Tests.csproj",
+      "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\CIDM-4390\\ABETtest.Tests\\ABETtest.Tests.csproj",
       "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\CIDM-4390\\ABETtest.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6042,8 +6042,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest\\ABETtest.csproj": {
-              "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\Abet Project\\ABETtest\\ABETtest.csproj"
+            "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\CIDM-4390\\ABETtest\\ABETtest.csproj": {
+              "projectPath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\CIDM-4390\\ABETtest\\ABETtest.csproj"
             }
           }
         }
@@ -6098,7 +6098,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
