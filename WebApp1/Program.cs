@@ -22,6 +22,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
 
 //Require Authenticated users
 builder.Services.AddAuthorization(options =>
