@@ -24,6 +24,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("ElevatedRights", policy =>
+          policy.RequireRole("SystemAdmin", "Instructor", "ProgramAdmin","ProgramEvaluator"));
+});
+
 //Require Authenticated users
 builder.Services.AddAuthorization(options =>
 {
@@ -37,6 +43,24 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("RequireInstructorRole",
          policy => policy.RequireRole("Instructor"));
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireSystemAdminRole",
+         policy => policy.RequireRole("SystemAdmin"));
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireProgramAdminRole",
+         policy => policy.RequireRole("ProgramAdmin"));
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireProgramEvaluatorRole",
+         policy => policy.RequireRole("ProgramEvaluator"));
 });
 
 
