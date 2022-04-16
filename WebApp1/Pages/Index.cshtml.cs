@@ -8,11 +8,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System.ComponentModel.DataAnnotations;        // Required using directives for Data Validation
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApp1.Pages;
-
+[AllowAnonymous]
 public class IndexModel : PageModel
 {
+    
     [BindProperty]
         // Add Data Validation Rules
         [Display(Name = "First Name")]

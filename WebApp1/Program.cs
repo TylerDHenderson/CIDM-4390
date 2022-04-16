@@ -109,6 +109,19 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
     options.SlidingExpiration = true;
 });
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<WebApp1.Data.ApbetProjectContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("ApbetProjectContext")));
+}
+else
+{
+    builder.Services.AddDbContext<WebApp1.Data.ApbetProjectContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ApbetProjectContext")));
+}
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -122,6 +135,8 @@ else
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

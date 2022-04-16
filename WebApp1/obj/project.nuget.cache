@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2Dem2QbfjeArIN1ABLgB8DbffT6TBZUGgP7t3IBThv5HXPydBuO4Uo6a9C7mdsPTVZbUv2U+zoS4h8vPD6eDw==",
+  "dgSpecHash": "dVmXLMqJ59XBC6uIMUe7hS6jI0Yk4QMfCguAvWuELp8hfqNNVMg9eK8QODrrERXEDlYJXwrqyf+M4hEFvJF9rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\CIDM-4390\\WebApp1\\WebApp1.csproj",
+  "projectFilePath": "C:\\Users\\Tyler\\OneDrive\\Desktop\\WT Class\\2022 Spring\\Software System Development\\Testing\\Better\\CIDM-4390\\WebApp1\\WebApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tyler\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tyler\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

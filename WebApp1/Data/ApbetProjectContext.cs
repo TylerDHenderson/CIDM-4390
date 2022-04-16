@@ -23,6 +23,8 @@ namespace WebApp1.Data
 
         public DbSet<WebApp1.Models.SystemAdmin> SystemAdmin { get; set; }
 
+
+
         #region snippet2
         public async virtual Task AddProgramAdminAsync(WebApp1.Models.ProgramAdmin programAdmin)
         {
@@ -42,5 +44,8 @@ namespace WebApp1.Data
             await Instructor.AddAsync(instructor);
             await SaveChangesAsync();
         }
+
+
+        
     }
 }

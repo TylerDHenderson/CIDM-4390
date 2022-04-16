@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApp1.Data;
 using WebApp1.Models;
 
+
 namespace WebApp1.Pages.Instructors
 {
     public class IndexModel : PageModel
