@@ -34,8 +34,8 @@ builder.Services.AddAuthorization(options =>
 //Policy based role checks
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("RequireAdministratorRole",
-         policy => policy.RequireRole("Administrator"));
+    options.AddPolicy("RequireInstructorRole",
+         policy => policy.RequireRole("Instructor"));
 });
 
 
