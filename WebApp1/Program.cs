@@ -31,6 +31,13 @@ builder.Services.AddAuthorization(options =>
         .Build();
 });
 
+//Policy based role checks
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireAdministratorRole",
+         policy => policy.RequireRole("Administrator"));
+});
+
 
 
 builder.Services.AddDbContext<ApbetProjectContext>(options =>

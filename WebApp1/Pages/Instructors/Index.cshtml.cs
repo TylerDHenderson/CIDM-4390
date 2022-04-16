@@ -26,5 +26,7 @@ namespace WebApp1.Pages.Instructors
         {
             Instructor = await _context.Instructor.ToListAsync();
         }
+
+        
     }
 }
